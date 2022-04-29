@@ -509,6 +509,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.25rem;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-min {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -552,12 +564,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.space-x-\[35px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(35px * var(--tw-space-x-reverse));
-  margin-left: calc(35px * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -582,12 +588,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(10px * var(--tw-space-y-reverse));
 }
 
-.space-x-\[33px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(33px * var(--tw-space-x-reverse));
-  margin-left: calc(33px * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .bg-PrimaryYellow {
   --tw-bg-opacity: 1;
   background-color: rgb(252 192 6 / var(--tw-bg-opacity));
@@ -604,6 +604,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -647,6 +651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-\[6px\] {
   padding-right: 6px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-Coda {
@@ -757,6 +765,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:space-x-\[33px\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(33px * var(--tw-space-x-reverse));
+    margin-left: calc(33px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -769,12 +787,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: calc(35px * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-x-\[33px\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(33px * var(--tw-space-x-reverse));
-    margin-left: calc(33px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:bg-transparent {
     background-color: transparent;
   }
@@ -782,6 +794,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-\[70px\] {
     padding-left: 70px;
     padding-right: 70px;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:text-lg {
@@ -792,11 +813,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .md\:text-PrimaryYellow {
@@ -812,11 +828,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1024px) {
   .lg\:max-w-\[900px\] {
     max-width: 900px;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .lg\:text-\[58px\] {
