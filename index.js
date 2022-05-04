@@ -8,3 +8,12 @@ navBtn.addEventListener("click", function(){
         btn.classList.toggle("add-color")
     })
 })
+
+
+gsap.from(".logo", {
+    duration: 1,
+    y: -50,
+    opacity: 0,
+    ease: "power1.out"
+
+})
