@@ -517,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 100px;
 }
 
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
 .block {
   display: block;
 }
@@ -559,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[161px\] {
   height: 161px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -847,6 +855,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 86px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-Coda {
   font-family: Coda;
 }
@@ -1067,6 +1079,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 416px;
   }
 
+  .md\:max-w-full {
+    max-width: 100%;
+  }
+
   .md\:transform-none {
     transform: none;
   }
@@ -1130,6 +1146,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: left;
   }
 
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1190,6 +1210,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 179px;
   }
 
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:h-max {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .lg\:h-\[466px\] {
+    height: 466px;
+  }
+
   .lg\:max-w-\[900px\] {
     max-width: 900px;
   }
@@ -1204,6 +1238,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:max-w-2xl {
     max-width: 42rem;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -1225,6 +1263,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:pr-\[70px\] {
     padding-right: 70px;
+  }
+
+  .lg\:pt-\[128px\] {
+    padding-top: 128px;
+  }
+
+  .lg\:pt-\[328px\] {
+    padding-top: 328px;
+  }
+
+  .lg\:pt-\[382px\] {
+    padding-top: 382px;
   }
 
   .lg\:text-\[58px\] {
