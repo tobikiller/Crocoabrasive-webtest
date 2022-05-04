@@ -9,6 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&family=JetBrains+Mono&family=Public+Sans:wght@900&display=swap"
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
    
     <title>Croco Abrasive - High quality coated paper</title>
 </head>
@@ -28,7 +36,7 @@
         <div class="flex justify-between px-[16px] py-[12px] items-center md:px-[70px] ">
             <img src="images/Crocologo.svg" alt="Croco Abrasive logo">
 
-            <ul class="list invisible md:visible h-screen absolute top-0 left-0 bg-PrimaryYellow w-full flex flex-col md:flex-row justify-center  px-[16px] space-y-3 md:space-y-0 md:space-x-[35px] transform translate-y-[-100%] transition duration-1000 md:transition-none md:transform-none  md:relative md:bg-transparent md:text-PrimaryYellow  md:w-auto  md:h-auto" id="nav-link">
+            <ul class="list invisible  md:visible h-screen absolute top-0 left-0 bg-PrimaryYellow w-full flex flex-col md:flex-row justify-center  px-[16px] space-y-3 md:space-y-0 md:space-x-[35px] transform translate-y-[-100%] transition duration-1000 md:transition-none md:transform-none  md:relative md:bg-transparent md:text-PrimaryYellow  md:w-auto  md:h-auto" id="nav-link">
                 <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block text-PrimaryDark      "></a> Product</li>
                 <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block text-PrimaryDark      "></a> About us</li>
                 <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block text-PrimaryDark      "></a> Contact us</li>
@@ -47,7 +55,7 @@
 
     </nav>
 
-    <header class="bg-abrasive bg-center bg-no-repeat bg-cover h-[80vh]  sm:h-screen items-center flex    px-[16px]  my-auto ">
+    <header class="bg-abrasive bg-center bg-no-repeat bg-cover h-screen   items-center flex    px-[16px]  my-auto ">
         <div class="flex flex-col  sm:justify-start  sm:items-start py-[89px] sm:py-0   my-auto h-min  space-y-[10px] md:px-[70px]  ">
            <h1 class="text-white font-Monument font-bold md:text-5xl text-[32px] max-w-fit sm:text-left sm:text-5xl sm:max-w-fit  md:text-left lg:text-[58px] lg:max-w-[900px]  md:max-w-[651px]  uppercase leading-[29px] "><span class="text-PrimaryYellow">Tools</span> created by <span class="text-PrimaryYellow">expert</span> for <span class="text-PrimaryYellow">professionals</span> </h1>
        <p class="text-white  text-[25px] leading-8 max-w-fit md:max-w-[410px]  sm:max-w-fit sm:text-left lg:max-w-[626px] md:text-2xl lg:text-4xl  font-Coda">For more than two decades, master artisans all over the world have relied on our superior coated abrasives. </p>
@@ -79,9 +87,68 @@
            
          </div>
     </section>
+
+
+
+    <!-- product page -->
+
+     <section class="bg-PrimaryDark">
+
+        <div class="Product-content py-[116px] px-[16px] flex flex-col justify-between ">
+
+            <div>
+               <h2 class="text-white font-Monument uppercase  text-[30px] leading-8 max-w-fit ">Feel the <span class="text-PrimaryOrange">abrasive force</span></h2>
+               <p class="font-Coda text-white text-[20px] leading-6 max-w-[283px] mt-[24px]   ">Feel the power of the abrasive material as it applies to your daily work.</p>
+               <button class="text-lg font-Coda text-white bg-PrimaryYellow w-max mt-[16px] "><a href="#" class="px-[28px]  " >Our products</a></button>
+            </div>
+             
+            <div class="space-y-[20px] mt-[40px] ">
+                <h3 class="uppercase text-white font-Monument text-4xl ">Our <span class="text-PrimaryOrange">Materials</span></h3>
+                 <div  class="products cursor-alias flex space-x-2 owl-carousel owl-theme">
+                     <img class="item transition-all duration-1000" src="images/diamond-saw-angle-grinder.png" alt="">
+                     <img class="item transition-all duration-1000" src="images/diamond-saw-petrol-saw.png" alt="">
+                     <img class="item transition-all duration-1000" src="images/quick-change-and-conditioning-pads2 1.png" alt="">
+                     <img class="item transition-all duration-1000" src="images/flap disc.png" alt="">
+                 </div>
+            </div>
+        </div>
+
+     </section>
+
   </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="index.js"></script>
+    <script type="text/javascript">
+    var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    autoWidth:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    dots: false,
+   
+});
+      </script>
 </body>
 </html>
 
