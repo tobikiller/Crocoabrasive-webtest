@@ -11,6 +11,8 @@ module.exports = {
       },
       backgroundImage:{
         "abrasive":"url('images/header-bg.png') ",
+        "world":"url('images/wordmap.png') ",
+        
       },
       backgroundSize:{
        

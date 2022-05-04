@@ -493,6 +493,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: auto;
 }
 
+.mt-\[34px\] {
+  margin-top: 34px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }
@@ -513,20 +521,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.25rem;
 }
 
-.h-max {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .h-min {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
 }
 
-.h-auto {
-  height: auto;
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .w-full {
@@ -543,8 +547,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: max-content;
 }
 
+.w-min {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .max-w-\[338px\] {
   max-width: 338px;
+}
+
+.max-w-\[222px\] {
+  max-width: 222px;
+}
+
+.max-w-\[360px\] {
+  max-width: 360px;
+}
+
+.max-w-\[283px\] {
+  max-width: 283px;
+}
+
+.max-w-\[280px\] {
+  max-width: 280px;
+}
+
+.max-w-\[290px\] {
+  max-width: 290px;
 }
 
 .translate-y-\[-100\%\] {
@@ -560,8 +596,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -596,6 +640,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(10px * var(--tw-space-y-reverse));
 }
 
+.space-y-\[80px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(80px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(80px * var(--tw-space-y-reverse));
+}
+
 .bg-PrimaryYellow {
   --tw-bg-opacity: 1;
   background-color: rgb(252 192 6 / var(--tw-bg-opacity));
@@ -608,6 +658,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-abrasive {
   background-image: url('images/header-bg.png') ;
+}
+
+.bg-world {
+  background-image: url('images/wordmap.png') ;
 }
 
 .bg-cover {
@@ -637,11 +691,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 16px;
 }
 
-.px-\[35px\] {
-  padding-left: 35px;
-  padding-right: 35px;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -657,12 +706,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
+.py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-\[89px\] {
+  padding-top: 89px;
+  padding-bottom: 89px;
+}
+
 .pr-\[6px\] {
   padding-right: 6px;
 }
 
-.text-center {
-  text-align: center;
+.pr-\[60px\] {
+  padding-right: 60px;
+}
+
+.pl-\[80px\] {
+  padding-left: 80px;
+}
+
+.pr-\[16px\] {
+  padding-right: 16px;
+}
+
+.pl-\[89px\] {
+  padding-left: 89px;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-Coda {
@@ -697,6 +781,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -707,6 +804,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-\[28\.8px\] {
   line-height: 28.8px;
+}
+
+.leading-\[29px\] {
+  line-height: 29px;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-\[38px\] {
+  line-height: 38px;
 }
 
 .text-PrimaryDark {
@@ -751,10 +860,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: flex-start;
   }
 
-  .sm\:items-center {
-    align-items: center;
-  }
-
   .sm\:justify-start {
     justify-content: flex-start;
   }
@@ -783,6 +888,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: relative;
   }
 
+  .md\:ml-\[70px\] {
+    margin-left: 70px;
+  }
+
+  .md\:mr-\[70px\] {
+    margin-right: 70px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -807,20 +920,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 410px;
   }
 
+  .md\:max-w-\[456px\] {
+    max-width: 456px;
+  }
+
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
   .md\:transform-none {
     transform: none;
   }
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
-  .md\:justify-start {
-    justify-content: flex-start;
   }
 
   .md\:space-x-\[33px\] > :not([hidden]) ~ :not([hidden]) {
@@ -850,6 +963,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 70px;
   }
 
+  .md\:pl-\[\] {
+    padding-left: ;
+  }
+
+  .md\:pr-\[70px\] {
+    padding-right: 70px;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -874,6 +995,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2rem;
   }
 
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:text-\[32px\] {
+    font-size: 32px;
+  }
+
   .md\:text-PrimaryYellow {
     --tw-text-opacity: 1;
     color: rgb(252 192 6 / var(--tw-text-opacity));
@@ -885,24 +1014,44 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:max-w-\[900px\] {
     max-width: 900px;
   }
 
-  .lg\:max-w-\[520px\] {
-    max-width: 520px;
-  }
-
-  .lg\:max-w-\[700px\] {
-    max-width: 700px;
-  }
-
-  .lg\:max-w-\[320px\] {
-    max-width: 320px;
-  }
-
   .lg\:max-w-\[626px\] {
     max-width: 626px;
+  }
+
+  .lg\:max-w-\[420px\] {
+    max-width: 420px;
+  }
+
+  .lg\:max-w-max {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
+  .lg\:max-w-min {
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .lg\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .lg\:max-w-\[400px\] {
+    max-width: 400px;
   }
 
   .lg\:px-\[70px\] {
@@ -914,13 +1063,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 58px;
   }
 
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
