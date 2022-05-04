@@ -9,13 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&family=JetBrains+Mono&family=Public+Sans:wght@900&display=swap"
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="owl.carousel.min.css">
+   <link rel="stylesheet" href="owl.theme.default.min.css">
 
    
     <title>Croco Abrasive - High quality coated paper</title>
@@ -34,7 +29,7 @@
 
     <nav class="bg-PrimaryDark">
         <div class="flex justify-between px-[16px] py-[12px] items-center md:px-[70px] ">
-            <img src="images/Crocologo.svg" alt="Croco Abrasive logo">
+            <img class="h-[80px] " src="images/Crocologo.svg" alt="Croco Abrasive logo">
 
             <ul class="list invisible  md:visible h-screen absolute top-0 left-0 bg-PrimaryYellow w-full flex flex-col md:flex-row justify-center  px-[16px] space-y-3 md:space-y-0 md:space-x-[35px] transform translate-y-[-100%] transition duration-1000 md:transition-none md:transform-none  md:relative md:bg-transparent md:text-PrimaryYellow  md:w-auto  md:h-auto" id="nav-link">
                 <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block text-PrimaryDark      "></a> Product</li>
@@ -198,7 +193,7 @@
                     </div>   
                     <div class="flex space-x-2 items-center">
                         <img src="images/phone.svg" alt="phone icon">
-                        <p class="font-Coda text-base">(480) 555-0103</p>
+                        <p class="font-Coda text-base">+44 76 51 27 82 37</p>
                     </div>   
                     <div class="flex space-x-2 items-center">
                         <img src="images/email.svg" alt="email icon">
@@ -220,7 +215,7 @@
                     </div>   
                     <div class="flex space-x-2 items-center">
                         <img src="images/phone.svg" alt="phone icon">
-                        <p class="font-Coda text-base">(704) 555-0127</p>
+                        <p class="font-Coda text-base">+44 76 51 27 82 37</p>
                     </div>   
                     <div class="flex space-x-2 items-center">
                         <img src="images/email.svg" alt="email icon">
@@ -266,7 +261,7 @@
                 <div class="max-w-[310px] ">
                     <img class="mx-auto md:mx-0" src="images/warehouse.svg" alt="Warehouse">
                     <div class="space-y-[15px] pt-[40px] ">
-                      <h4 class="font-Monument text-2xl uppercase text-center md:text-left">Truck</h4>
+                      <h4 class="font-Monument text-2xl uppercase text-center md:text-left">warehouse</h4>
                       <p class="font-Coda text-center text-base md:text-left">Pickup from our distributors worldwide. </p>
                     </div>
                   
@@ -290,28 +285,17 @@
 
 
 
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-  integrity="sha512-894Y-E6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="jquery.min.js"></script>
+ <script src="owl.carousel.min.js"></script>
     <script src="index.js"></script>
     <script type="text/javascript">
-    var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:1,
-    
+$('.owl-carousel').owlCarousel({
     loop:true,
     autoWidth:true,
+    dots:false,
     autoplay:true,
-    autoplayTimeout:6000,
-    dots: false,
-    center: true,
-    
-    
-});
+   
+})
       </script>
 </body>
 </html>

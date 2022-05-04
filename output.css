@@ -590,6 +590,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 161px;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
 .w-full {
   width: 100%;
 }
