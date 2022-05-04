@@ -12,6 +12,10 @@ module.exports = {
       backgroundImage:{
         "abrasive":"url('images/header-bg.png') ",
         "world":"url('images/wordmap.png') ",
+        "diy":"url('images/DIY.png') ",
+        "hardware":"url('images/Hardware.png') ",
+        "industry":"url('images/industry.png') ",
+        "automotive":"url('images/automotive.png') ",
         
       },
       backgroundSize:{
