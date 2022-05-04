@@ -808,6 +808,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 32px;
 }
 
+.text-\[25px\] {
+  font-size: 25px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -830,6 +834,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-\[38px\] {
   line-height: 38px;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-PrimaryDark {
