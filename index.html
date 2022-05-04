@@ -94,21 +94,21 @@
 
      <section class="bg-PrimaryDark">
 
-        <div class="Product-content py-[116px] px-[16px] flex flex-col justify-between ">
+        <div class="Product-content py-[116px] px-[16px] md:px-[70px] lg:px-0 lg:pl-[70px] flex flex-col lg:flex-row lg:items-center justify-between ">
 
             <div>
-               <h2 class="text-white font-Monument uppercase  text-[30px] leading-8 max-w-fit ">Feel the <span class="text-PrimaryOrange">abrasive force</span></h2>
-               <p class="font-Coda text-white text-[20px] leading-6 max-w-[283px] mt-[24px]   ">Feel the power of the abrasive material as it applies to your daily work.</p>
+               <h2 class="text-white font-Monument uppercase  text-[30px] md:text-4xl leading-8 lg:text-5xl md:max-w-[416px] lg:max-w-[573px]  ">Feel the <span class="text-PrimaryOrange">abrasive force</span></h2>
+               <p class="font-Coda text-white text-[20px] leading-6 max-w-[283px] mt-[24px] md:text-[24px] md:leading-7 md:max-w-[416px]    ">Feel the power of the abrasive material as it applies to your daily work.</p>
                <button class="text-lg font-Coda text-white bg-PrimaryYellow w-max mt-[16px] "><a href="#" class="px-[28px]  " >Our products</a></button>
             </div>
              
-            <div class="space-y-[20px] mt-[40px] ">
-                <h3 class="uppercase text-white font-Monument text-4xl ">Our <span class="text-PrimaryOrange">Materials</span></h3>
-                 <div  class="products cursor-alias flex space-x-2 owl-carousel owl-theme">
-                     <img class="item transition-all duration-1000" src="images/diamond-saw-angle-grinder.png" alt="">
-                     <img class="item transition-all duration-1000" src="images/diamond-saw-petrol-saw.png" alt="">
-                     <img class="item transition-all duration-1000" src="images/quick-change-and-conditioning-pads2 1.png" alt="">
-                     <img class="item transition-all duration-1000" src="images/flap disc.png" alt="">
+            <div class="space-y-[20px] mt-[40px] overflow-hidden lg:max-w-2xl ">
+                <h3 class="uppercase text-white font-Monument text-2xl sm:text-5xl lg:pr-[70px] ">Our <span class="text-PrimaryOrange">Materials</span></h3>
+                 <div  class="products  flex space-x-10 owl-carousel owl-theme overflow-hidden max-w-xl w-[84%]  ">
+                     <img class="item transition-all duration-1000 h-[77px] sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/diamond-saw-angle-grinder.png" alt="">
+                     <img class="item transition-all duration-1000 h-[77px] sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/diamond-saw-petrol-saw.png" alt="">
+                     <img class="item transition-all duration-1000 h-[77px] sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/quick-change-and-conditioning-pads2 1.png" alt="">
+                     <img class="item transition-all duration-1000 h-[77px] sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/flap disc.png" alt="">
                  </div>
             </div>
         </div>
@@ -141,12 +141,15 @@
     var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:1,
+    
     loop:true,
     autoWidth:true,
     autoplay:true,
     autoplayTimeout:6000,
     dots: false,
-   
+    center: true,
+    autoHeight:true
+    
 });
       </script>
 </body>
