@@ -16,3 +16,9 @@
 .add-color{
     background: black;
 }
+
+.logo-top{
+    z-index: 20;
+    transition: 1s ease;
+    opacity: 0;
+}
