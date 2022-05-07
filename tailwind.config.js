@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./index.html','./index.js',],
+  content: ['./index.html','./index.js',
+  './Product/product.html', './Product/product.js'
+],
+
   theme: {
     extend: {
       fontFamily:{
@@ -7,7 +10,8 @@ module.exports = {
         "Jetbrain": "JetBrains Mono",
         "Public": "Public Sans",
         "Coda": "Coda",
-        "Monument":"Monument Extended"
+        "Monument":"Monument Extended",
+        "Montserrat":"Montserrat"
       },
       backgroundImage:{
         "abrasive":"url('images/header-bg.png') ",

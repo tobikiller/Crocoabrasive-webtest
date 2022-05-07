@@ -1,0 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended);
+@font-face {font-family: "Monument Extended"; src: url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot"); src: url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff") format("woff"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended") format("svg"); }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.show{
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+    transition: 1s ease;
+    
+}
+
+.add-color{
+    background: black;
+}
