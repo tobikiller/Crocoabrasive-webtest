@@ -546,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 60px;
 }
 
+.mt-\[6px\] {
+  margin-top: 6px;
+}
+
 .block {
   display: block;
 }
@@ -594,6 +598,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 161px;
 }
 
+.h-\[3px\] {
+  height: 3px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -616,6 +624,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[84\%\] {
   width: 84%;
+}
+
+.w-\[80px\] {
+  width: 80px;
 }
 
 .max-w-fit {
@@ -1059,8 +1071,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
