@@ -618,6 +618,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 46px;
 }
 
+.max-h-max {
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -656,6 +662,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[44px\] {
   width: 44px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .max-w-fit {
@@ -698,6 +724,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[310px\] {
   max-width: 310px;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .translate-y-\[-100\%\] {
@@ -839,6 +873,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-\[70px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(70px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(70px * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -925,6 +965,34 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-\[4px\] {
   padding: 4px;
+}
+
+.p-\[23px\] {
+  padding: 23px;
+}
+
+.p-\[26px\] {
+  padding: 26px;
+}
+
+.p-\[28px\] {
+  padding: 28px;
+}
+
+.p-\[27px\] {
+  padding: 27px;
+}
+
+.p-\[25\.5px\] {
+  padding: 25.5px;
+}
+
+.p-\[25px\] {
+  padding: 25px;
+}
+
+.p-\[22px\] {
+  padding: 22px;
 }
 
 .px-\[70px\] {
@@ -1040,6 +1108,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
 }
 
 .text-center {
@@ -1200,6 +1276,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 1000ms;
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .selection\:bg-PrimaryYellow *::-moz-selection {
   --tw-bg-opacity: 1;
   background-color: rgb(252 192 6 / var(--tw-bg-opacity));
@@ -1238,6 +1322,29 @@ Ensure the default browser behavior of the `hidden` attribute.
 .selection\:text-PrimaryDark::selection {
   --tw-text-opacity: 1;
   color: rgb(10 9 9 / var(--tw-text-opacity));
+}
+
+.hover\:translate-x-1:hover {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-50:hover {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-yellow-500:hover {
@@ -1431,6 +1538,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: transparent;
   }
 
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-\[12px\] {
+    padding: 12px;
+  }
+
+  .md\:p-\[23px\] {
+    padding: 23px;
+  }
+
   .md\:px-\[70px\] {
     padding-left: 70px;
     padding-right: 70px;
@@ -1539,6 +1658,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 230px;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-\[900px\] {
     max-width: 900px;
   }
@@ -1569,6 +1692,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:p-\[27px\] {
+    padding: 27px;
+  }
+
+  .lg\:p-\[26px\] {
+    padding: 26px;
+  }
+
+  .lg\:p-\[26\.5px\] {
+    padding: 26.5px;
+  }
+
+  .lg\:p-\[255px\] {
+    padding: 255px;
+  }
+
+  .lg\:p-\[25px\] {
+    padding: 25px;
   }
 
   .lg\:px-0 {
