@@ -602,6 +602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -871,6 +875,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.25rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-\[70px\] {
   padding-left: 70px;
   padding-right: 70px;
@@ -1000,6 +1012,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 8px;
 }
 
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1074,6 +1090,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
@@ -1330,6 +1350,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 483px;
   }
 
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .md\:max-w-xs {
+    max-width: 20rem;
+  }
+
   .md\:transform-none {
     transform: none;
   }
@@ -1344,6 +1372,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:justify-start {
@@ -1372,6 +1404,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: calc(35px * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:bg-transparent {
     background-color: transparent;
   }
@@ -1381,12 +1419,41 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 70px;
   }
 
+  .md\:py-\[20px\] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .md\:py-\[25px\] {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .md\:py-\[24px\] {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .md\:py-\[23px\] {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  .md\:py-\[23\.5px\] {
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+  }
+
   .md\:pl-\[\] {
     padding-left: ;
   }
 
   .md\:pr-\[70px\] {
     padding-right: 70px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:text-left {
@@ -1471,6 +1538,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 466px;
   }
 
+  .lg\:h-\[225px\] {
+    height: 225px;
+  }
+
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .lg\:h-\[230px\] {
+    height: 230px;
+  }
+
   .lg\:max-w-\[900px\] {
     max-width: 900px;
   }
@@ -1485,6 +1564,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:max-w-2xl {
     max-width: 42rem;
+  }
+
+  .lg\:max-w-\[120px\] {
+    max-width: 120px;
+  }
+
+  .lg\:max-w-\[546px\] {
+    max-width: 546px;
   }
 
   .lg\:grid-cols-4 {
