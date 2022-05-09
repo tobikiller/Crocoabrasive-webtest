@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./index.html','./index.js',
-  './Product/product.html', './Product/product.js'
+  './Product/product.html', './Product/product.js',
+  './Product/diamond/diamond-discs.html','./Product/diamond/diamond.js'
 ],
 
   theme: {
