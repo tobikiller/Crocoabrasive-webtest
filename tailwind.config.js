@@ -1,7 +1,6 @@
 module.exports = {
   content: ['./index.html','./index.js',
-  './Product/product.html', './Product/product.js',
-  './Product/diamond/diamond-discs.html','./Product/diamond/diamond.js'
+  './Product/**/*.{html,js}'
 ],
 
   theme: {
@@ -12,7 +11,8 @@ module.exports = {
         "Public": "Public Sans",
         "Coda": "Coda",
         "Monument":"Monument Extended",
-        "Montserrat":"Montserrat"
+        "Montserrat":"Montserrat",
+        "Inter": "Inter",
       },
       backgroundImage:{
         "abrasive":"url('images/header-bg.png') ",

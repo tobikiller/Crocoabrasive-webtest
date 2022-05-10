@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&family=JetBrains+Mono&family=Public+Sans:wght@900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Croco Abrasive - Diamond blades</title>
+    <link rel="stylesheet" href="/Product/diamond/output.css">
+    <link rel="stylesheet" href="/Product/diamond/style.css">
 </head>
 <body>
+    <div class="infos hidden md:block bg-PrimaryYellow px-[70px] py-[12px] ">
+        <div class="flex md:space-x-[33px]  ">
+            <p class="flex  items-center font-Coda text-base md:text-sm text-PrimaryDark"><span class=" pr-[6px] "><img src="images/phone.svg" alt="phone icon"></span>+44 76 51 27 82 37</p>
+            <p class="flex  items-center font-Coda text-base md:text-sm text-PrimaryDark"><span class=" pr-[6px] "><img src="images/location.svg" alt="location icon"></span>71-75 Shelton St, London United Kingdom</p>
+            <p class="flex  items-center font-Coda text-base md:text-sm text-PrimaryDark"><span class=" pr-[6px] "><img src="images/email.svg" alt="email icon"></span>sales@crocoabrasive.co.uk</p>
+        </div>
+</div>
+
+<!-- navigation-section  -->
+
+<nav class="bg-PrimaryDark">
+    <div class="flex justify-between px-[16px] py-[12px] items-center md:px-[70px] ">
+     <a href="/index.html"> <img class="h-[80px] logo " src="images/Crocologo.svg" alt="Croco Abrasive logo" id="croco-logo" ></a>  
+
+        <ul class="list invisible  md:visible h-screen fixed top-0 left-0 bg-PrimaryYellow w-full flex flex-col md:flex-row justify-center  px-[16px] space-y-3 md:space-y-0 md:space-x-[35px] transform translate-y-[-100%] transition duration-1000 md:transition-none md:transform-none  md:relative md:bg-transparent md:text-PrimaryYellow  md:w-auto  md:h-auto z-10" id="nav-link">
+            <li class="font-Bebas text-5xl md:text-lg"> <a href="/Product/product.html" class="block md:text-PrimaryYellow text-PrimaryDark    ">Product</a></li>
+            <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block md:text-PrimaryYellow text-PrimaryDark      ">About us</a></li>
+            <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block md:text-PrimaryYellow text-PrimaryDark      ">Contact us</a> </li>
+            <li class="font-Bebas text-5xl md:text-lg"> <a href="#" class="block md:text-PrimaryYellow text-PrimaryDark      "> Where to buy</a></li>
+
+        </ul>
+
+        <div class="space-y-0.5 md:hidden z-10 " id="toggle-btn">
+            <div class="bg-PrimaryYellow h-1 w-6 btn " id="" ></div>
+            <div class="bg-PrimaryYellow h-1 w-6 btn " id="" ></div>
+            <div class="bg-PrimaryYellow h-1 w-6 btn " id="" ></div>
+
+        </div>
+    </div>
+
+
+</nav>
+
+   <main class="mt-[40px] px-[16px] md:px-[70px] ">
+           <div class="space-y-[20px] ">
+               <h1 class="font-Monument text-2xl uppercase ">Diamond discs</h1>
+               <article class="font-Coda text-base max-w-full text-PrimaryDark">
+                Abrasive diamond blades are one of the most essential tools for contractors who perform concrete cutting and drilling. The blades are able to cut through the hardest materials, making them ideal for a variety of applications
+               </article>
+           </div>
+
+           <div class="flex-wrap flex gap-5   mt-[60px] ">
+             <div class="space-y-[6px] ">
+                    <img class="" src="/Product/diamond/images/diamond-saw-angle-grinder.png" alt="Croco abrasive diamond saw angle grinder ">
+                    <h4 class="font-Montserrat font-semibold max-w-[121px] text-base">Saw circular blades</h4>
+                    <a class="font-Inter text-sm text-PrimaryYellow" href="#">Read more</a>
+             </div>
+             <div class="space-y-[6px] ">
+                <img class="" src="/Product/diamond/images/diamond-saw-petrol-saw.png" alt="Croco abrasive diamond saw angle grinder ">
+                <h4 class="font-Montserrat font-semibold max-w-[121px] text-base">Diamond circular blades</h4>
+                <a class="font-Inter text-sm text-PrimaryYellow" href="#">Read more</a>
+         </div>
+
+         <div class="space-y-[6px] ">
+            <img class="" src="/Product/diamond/images/diamond-saw-angle-grinder.png" alt="Croco abrasive diamond saw angle grinder ">
+            <h4 class="font-Montserrat font-semibold max-w-[121px] text-base">Saw circular blades</h4>
+            <a class="font-Inter text-sm text-PrimaryYellow" href="#">Read more</a>
+     </div>
+     <div class="space-y-[6px] ">
+        <img class="" src="/Product/diamond/images/diamond-saw-petrol-saw.png" alt="Croco abrasive diamond saw angle grinder ">
+        <h4 class="font-Montserrat font-semibold max-w-[121px] text-base">Diamond circular blades</h4>
+        <a class="font-Inter text-sm text-PrimaryYellow" href="#">Read more</a>
+ </div>
+   </div>
+           </div>
+           
+   </main>
     
+    <script src="/Product/diamond/diamond.js"></script>
 </body>
 </html>

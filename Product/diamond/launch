@@ -1,0 +1,1 @@
+npx tailwindcss -i ./Product/diamond/input.css -o  ./Product/diamond/output.css  --watch
