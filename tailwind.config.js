@@ -20,7 +20,8 @@ module.exports = {
         "diy":"url('images/DIY.png') ",
         "hardware":"url('images/Hardware.png') ",
         "industry":"url('images/industry.png') ",
-        "automotive":"url('images/automotive.png') ",
+        "automotive":"url('images/automotive.png')",
+        "bg-footer":"url('images/footer-bg.jpg')",
         
       },
       backgroundSize:{
