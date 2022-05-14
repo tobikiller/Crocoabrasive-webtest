@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./index.html','./index.js',
-  './Product/**/*.{html,js}'
+  './Product/**/*.{html,js}',
+  './Terms/**/*.{html,js}',
 ],
 
   theme: {
@@ -34,6 +35,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
 
