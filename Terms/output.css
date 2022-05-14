@@ -1619,6 +1619,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -1719,6 +1723,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 8rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1729,6 +1737,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -2129,6 +2141,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-automotive {
   background-image: url('images/automotive.png');
+}
+
+.bg-bg-footer {
+  background-image: url('images/footer-bg.jpg');
 }
 
 .bg-cover {
