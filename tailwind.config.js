@@ -23,6 +23,9 @@ module.exports = {
         "industry":"url('images/industry.png') ",
         "automotive":"url('images/automotive.png')",
         "bg-footer":"url('images/footer-bg.jpg')",
+       
+        
+
         
       },
       backgroundSize:{
