@@ -63,3 +63,7 @@
     content: '';
     /* show by default */
 }
+
+.clip{
+    clip-path: polygon(0% 0%, 60% 0%, 50% 100%, 0% 100%);
+}
