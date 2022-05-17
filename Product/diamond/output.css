@@ -1442,16 +1442,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-\[45px\] {
   margin-bottom: 45px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -1642,16 +1638,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 56rem;
 }
 
-.max-w-none {
-  max-width: none;
-}
-
 .max-w-\[396px\] {
   max-width: 396px;
 }
 
-.max-w-\[162px\] {
-  max-width: 162px;
+.max-w-none {
+  max-width: none;
 }
 
 .translate-y-\[-100\%\] {
