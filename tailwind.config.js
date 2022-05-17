@@ -16,6 +16,9 @@ module.exports = {
         "Inter": "Inter",
         "Michroma": "Michroma",
         "Khula":"Khula",
+        "Share":"Share Tech",
+        
+        
         
       },
       backgroundImage:{
@@ -26,6 +29,7 @@ module.exports = {
         "industry":"url('images/industry.png') ",
         "automotive":"url('images/automotive.png')",
         "bg-footer":"url('images/footer-bg.jpg')",
+        "bg-footer-pd":"url('/Product/images/footer-bg.jpg')",
         "Cutting-stone":"url('/Product/diamond/images/Cutting-stone.jpg')",
         "cutting-stone-mb":"url('/Product/diamond/images/cutting-stone-mb.jpg')",
 
