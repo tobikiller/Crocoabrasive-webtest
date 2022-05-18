@@ -32,6 +32,7 @@ module.exports = {
         "bg-footer-pd":"url('/Product/images/footer-bg.jpg')",
         "Cutting-stone":"url('/Product/diamond/images/Cutting-stone.jpg')",
         "cutting-stone-mb":"url('/Product/diamond/images/cutting-stone-mb.jpg')",
+        "welding":"url('/images/welding.jpg.jpg')",
 
         
        
