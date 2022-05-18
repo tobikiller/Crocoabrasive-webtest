@@ -1339,6 +1339,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -1353,6 +1357,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .z-10 {
   z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .my-auto {
@@ -1938,6 +1946,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .bg-abrasive {
   background-image: url('images/header-bg.png') ;
 }
@@ -1978,8 +1996,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/Product/images/footer-bg.jpg');
 }
 
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-PrimaryDark {
+  --tw-gradient-from: #0A0909;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(10 9 9 / 0));
+}
+
+.to-PrimaryYellow {
+  --tw-gradient-to: #FCC006;
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-100\% {
+  background-size: 110%;
 }
 
 .bg-center {
@@ -1988,6 +2027,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-top {
   background-position: top;
+}
+
+.bg-left {
+  background-position: left;
 }
 
 .bg-no-repeat {
@@ -2345,6 +2388,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .transition {
@@ -2760,12 +2815,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.5rem;
   }
 
-  .md\:mt-32 {
-    margin-top: 8rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:block {
@@ -2794,10 +2849,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-\[250px\] {
     height: 250px;
-  }
-
-  .md\:h-\[100px\] {
-    height: 100px;
   }
 
   .md\:w-auto {
@@ -3332,6 +3383,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:h-\[272px\] {
     height: 272px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
   }
 
   .lg\:h-\[100px\] {

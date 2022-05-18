@@ -63,3 +63,9 @@
     content: '';
     /* show by default */
 }
+
+
+.linear{
+    background: rgb(11,11,11);
+background: linear-gradient(180deg, rgba(11,11,11,1) 20%, rgba(4,4,4,0.4514180672268907) 100%);
+}

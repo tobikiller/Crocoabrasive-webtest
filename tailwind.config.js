@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./index.html','./index.js',
   './Product/**/*.{html,js}',
+  './Product/flapwheels/**/*.{html,js} ',
   './Terms/**/*.{html,js}',
 ],
 
@@ -33,6 +34,7 @@ module.exports = {
         "Cutting-stone":"url('/Product/diamond/images/Cutting-stone.jpg')",
         "cutting-stone-mb":"url('/Product/diamond/images/cutting-stone-mb.jpg')",
         "welding":"url('/Product/images/welding.jpg')",
+        
 
         
        
@@ -40,8 +42,12 @@ module.exports = {
 
         
       },
+
+
+
+
       backgroundSize:{
-       
+           '100%': "110%",
       },
       colors:{
         "PrimaryYellow":"#FCC006",
