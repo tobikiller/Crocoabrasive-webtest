@@ -1506,6 +1506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 161px;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1538,12 +1542,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 222px;
 }
 
-.h-\[120px\] {
-  height: 120px;
-}
-
-.h-\[150px\] {
-  height: 150px;
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-full {
@@ -1656,10 +1656,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-none {
   max-width: none;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .translate-y-\[-100\%\] {
@@ -1972,6 +1968,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-cutting-stone-mb {
   background-image: url('/Product/diamond/images/cutting-stone-mb.jpg');
+}
+
+.bg-welding {
+  background-image: url('/Product/images/welding.jpg');
 }
 
 .bg-bg-footer-pd {
@@ -2756,12 +2756,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 70px;
   }
 
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .md\:mt-32 {
     margin-top: 8rem;
   }
 
-  .md\:mt-6 {
-    margin-top: 1.5rem;
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {
@@ -2784,28 +2788,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 190px;
   }
 
-  .md\:h-\[200px\] {
-    height: 200px;
+  .md\:h-\[150px\] {
+    height: 150px;
   }
 
   .md\:h-\[250px\] {
     height: 250px;
   }
 
-  .md\:h-\[150px\] {
-    height: 150px;
-  }
-
-  .md\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .md\:h-\[560px\] {
-    height: 560px;
-  }
-
-  .md\:h-80 {
-    height: 20rem;
+  .md\:h-\[100px\] {
+    height: 100px;
   }
 
   .md\:w-auto {
@@ -2822,10 +2814,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .md\:w-80 {
-    width: 20rem;
   }
 
   .md\:max-w-\[651px\] {
@@ -3346,32 +3334,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 272px;
   }
 
+  .lg\:h-\[100px\] {
+    height: 100px;
+  }
+
   .lg\:h-\[310px\] {
     height: 310px;
   }
 
   .lg\:h-auto {
     height: auto;
-  }
-
-  .lg\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .lg\:h-\[320px\] {
-    height: 320px;
-  }
-
-  .lg\:h-\[200px\] {
-    height: 200px;
-  }
-
-  .lg\:h-\[360px\] {
-    height: 360px;
-  }
-
-  .lg\:h-\[370px\] {
-    height: 370px;
   }
 
   .lg\:w-full {
@@ -3416,6 +3388,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:justify-between {
