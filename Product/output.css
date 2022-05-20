@@ -1367,6 +1367,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 20;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
@@ -1430,6 +1434,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 60px;
 }
 
+.mb-\[45px\] {
+  margin-bottom: 45px;
+}
+
 .mt-\[6px\] {
   margin-top: 6px;
 }
@@ -1452,10 +1460,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-\[45px\] {
-  margin-bottom: 45px;
 }
 
 .mb-5 {
@@ -1568,6 +1572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 222px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1646,6 +1654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 310px;
 }
 
+.max-w-\[396px\] {
+  max-width: 396px;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -1678,10 +1690,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-\[396px\] {
-  max-width: 396px;
 }
 
 .max-w-none {
@@ -1844,6 +1852,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(15px * var(--tw-space-y-reverse));
 }
 
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
 .space-y-\[25px\] > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(25px * calc(1 - var(--tw-space-y-reverse)));
@@ -1928,12 +1942,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
 .place-self-center {
   place-self: center;
 }
@@ -2002,16 +2010,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('images/footer-bg.jpg');
 }
 
-.bg-cutting-stone-mb {
-  background-image: url('/Product/diamond/images/cutting-stone-mb.jpg');
-}
-
 .bg-welding {
   background-image: url('/Product/images/welding.jpg');
 }
 
-.bg-bg-footer-pd {
-  background-image: url('/Product/images/footer-bg.jpg');
+.bg-cutting-stone-mb {
+  background-image: url('/Product/diamond/images/cutting-stone-mb.jpg');
 }
 
 .bg-gradient-to-b {
@@ -3375,6 +3379,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 272px;
   }
 
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
   .lg\:h-\[350px\] {
     height: 350px;
   }
@@ -3391,8 +3399,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: auto;
   }
 
-  .lg\:h-\[400px\] {
-    height: 400px;
+  .lg\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .lg\:h-\[200px\] {
+    height: 200px;
   }
 
   .lg\:w-full {

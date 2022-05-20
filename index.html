@@ -99,11 +99,12 @@
              
             <div class="space-y-[20px] mt-[40px] overflow-hidden lg:max-w-2xl ">
                 <h3 class="uppercase text-white font-Monument text-2xl sm:text-5xl lg:pr-[70px] ">Our <span class="text-PrimaryOrange">Materials</span></h3>
-                 <div  class="products  flex space-x-10 owl-carousel owl-theme overflow-hidden max-w-xl w-[84%]  ">
-                     <img class="item transition-all duration-1000 h-auto sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/flap discs/zirconia discs.png" alt="">
-                     <img class="item transition-all duration-1000 h-auto sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/Discs/continous rim disc.png" alt="">
-                     <img class="item transition-all duration-1000 h-auto sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/Discs/diamond-saw-angle-grinder.png" alt="">
-                     <img class="item transition-all duration-1000 h-auto sm:h-[150px] md:h-[158px] lg:h-[179px]  " src="images/flap discs/ceramnic discs.png " alt="">
+                 <div  class="products  flex items-center justify-center space-x-10 owl-carousel owl-theme overflow-hidden max-w-xl w-[84%]  ">
+
+                     <img class="item transition-all duration-1000 h-[200px] sm:h-[150px] md:h-[158px] lg:h-[1px]  " src="images/flap discs/zirconia discs.png" alt="">
+                     <img class="item transition-all duration-1000 h-[200px] sm:h-[150px] md:h-[158px] lg:h-[1px]  " src="images/Discs/continous rim disc.png" alt="">
+                     <img class="item transition-all duration-1000 h-[200px] sm:h-[150px] md:h-[158px] lg:h-[1px]  " src="images/Discs/diamond-saw-angle-grinder.png" alt="">
+                     <img class="item transition-all duration-1000 h-[200px] sm:h-[150px] md:h-[158px] lg:h-[1px]  " src="images/flap discs/ceramnic discs.png " alt="">
                  </div>
             </div>
         </div>
@@ -345,6 +346,16 @@ $('.owl-carousel').owlCarousel({
     autoWidth:true,
     dots:false,
     autoplay:true,
+
+    responsive:{
+     
+        1000:{
+               loop:true,
+       dots:false,
+    autoplay:true,
+            autoWidth:true,
+        }
+    }
    
 })
       </script>
