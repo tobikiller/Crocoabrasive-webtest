@@ -3,6 +3,7 @@ module.exports = {
   './Product/**/*.{html,js}',
   './Product/flapwheels/**/*.{html,js} ',
   './Terms/**/*.{html,js}',
+  './where-to-buy/**/*.{html,js}',
 ],
 
   theme: {
@@ -56,6 +57,7 @@ module.exports = {
       }
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'),
+  ('@tailwindcss/forms')],
 }
 
