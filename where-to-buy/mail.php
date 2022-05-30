@@ -13,7 +13,7 @@ $mailheader = "From:" .$name. "<".$email. "\r\n";
 
 $recipent = "edengu20@gmail.com"
 
-mail($name,$message,$country,$website,$phone,$email)
+mail($recipent,$subject,$message,$mailheader)
 or die("Error");
-
+echo"message send"
 >
