@@ -468,40 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .prose {
   color: var(--tw-prose-body);
   max-width: 65ch;
@@ -1525,6 +1491,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1643,6 +1613,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
+.h-\[556px\] {
+  height: 556px;
+}
+
+.h-\[245px\] {
+  height: 245px;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1677,6 +1663,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[200px\] {
   width: 200px;
+}
+
+.w-\[555px\] {
+  width: 555px;
 }
 
 .max-w-fit {
@@ -1774,6 +1764,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-cols-1 {
@@ -2036,6 +2030,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -2078,11 +2076,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-abrasive {
   background-image: url('images/header-bg.png') ;
 }
@@ -2123,6 +2116,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-earth-pin {
+  background-image: url('/images/Earth.svg');
+}
+
 .from-PrimaryDark {
   --tw-gradient-from: #0A0909;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(10 9 9 / 0));
@@ -2132,12 +2129,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-100\% {
+  background-size: 110%;
+}
+
 .bg-center {
   background-position: center;
 }
 
 .bg-top {
   background-position: top;
+}
+
+.bg-left {
+  background-position: left;
 }
 
 .bg-no-repeat {
@@ -2537,17 +2546,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.7;
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.ring-fuchsia-900 {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(112 26 117 / var(--tw-ring-opacity));
-}
-
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2727,6 +2725,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:h-\[200px\] {
     height: 200px;
+  }
+
+  .sm\:h-\[250px\] {
+    height: 250px;
   }
 
   .sm\:max-w-fit {
@@ -3063,6 +3065,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 250px;
   }
 
+  .md\:h-\[274px\] {
+    height: 274px;
+  }
+
+  .md\:h-\[550px\] {
+    height: 550px;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -3077,6 +3087,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .md\:w-\[555\.91px\] {
+    width: 555.91px;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-\[651px\] {
@@ -3133,6 +3151,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .md\:max-w-\[276px\] {
+    max-width: 276px;
+  }
+
+  .md\:max-w-\[300px\] {
+    max-width: 300px;
   }
 
   .md\:transform-none {
@@ -3238,6 +3264,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:bg-Cutting-stone {
     background-image: url('/Product/diamond/images/Cutting-stone.jpg');
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
   }
 
   .md\:p-\[23px\] {
@@ -3621,6 +3651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
   }
 
+  .lg\:w-\[309px\] {
+    width: 309px;
+  }
+
   .lg\:max-w-\[900px\] {
     max-width: 900px;
   }
@@ -3643,6 +3677,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:max-w-lg {
     max-width: 32rem;
+  }
+
+  .lg\:max-w-\[650px\] {
+    max-width: 650px;
   }
 
   .lg\:grid-cols-4 {
