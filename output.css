@@ -1487,10 +1487,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
 .block {
   display: block;
 }
@@ -2090,7 +2086,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-earth-pin {
-  background-image: url('/images/earth-pin.svg');
+  background-image: url('images/earth-pin.svg');
 }
 
 .from-PrimaryDark {
@@ -2292,10 +2288,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-1 {
   padding-right: 0.25rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
 }
 
 .text-left {
@@ -3002,10 +2994,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 8rem;
   }
 
-  .md\:ml-8 {
-    margin-left: 2rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -3056,10 +3044,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-\[309px\] {
-    width: 309px;
   }
 
   .md\:max-w-\[651px\] {
@@ -3217,6 +3201,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-y-reverse: 0;
     margin-top: calc(15px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(15px * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:bg-transparent {
@@ -3694,6 +3684,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-7 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:p-\[25px\] {

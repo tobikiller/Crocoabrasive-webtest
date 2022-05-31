@@ -35,7 +35,7 @@ module.exports = {
         "Cutting-stone":"url('/Product/diamond/images/Cutting-stone.jpg')",
         "cutting-stone-mb":"url('/Product/diamond/images/cutting-stone-mb.jpg')",
         "welding":"url('/Product/images/welding.jpg')",
-        "earth-pin":"url('/images/earth-pin.svg')",
+        "earth-pin":"url('images/earth-pin.svg')",
         
 
         
