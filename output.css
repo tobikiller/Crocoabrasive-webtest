@@ -1487,10 +1487,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -2084,7 +2080,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-earth-pin {
-  background-image: url('images/Earth.svg');
+  background-image: url('images/earth-pin.svg');
 }
 
 .from-PrimaryDark {
@@ -2286,6 +2282,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-1 {
   padding-right: 0.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .text-left {
