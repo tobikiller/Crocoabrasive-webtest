@@ -1985,6 +1985,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .place-self-center {
   place-self: center;
 }
@@ -2080,7 +2086,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-earth-pin {
-  background-image: url('images/earth-pin.svg');
+  background-image: url('/images/earth-pin.svg');
 }
 
 .from-PrimaryDark {
