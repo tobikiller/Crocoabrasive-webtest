@@ -1487,6 +1487,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -2998,6 +3002,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 8rem;
   }
 
+  .md\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3048,6 +3056,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-\[309px\] {
+    width: 309px;
   }
 
   .md\:max-w-\[651px\] {
