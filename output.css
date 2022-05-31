@@ -1487,10 +1487,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -1605,28 +1601,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 222px;
 }
 
-.h-\[131px\] {
-  height: 131px;
+.h-\[250px\] {
+  height: 250px;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-\[556px\] {
-  height: 556px;
-}
-
-.h-\[245px\] {
-  height: 245px;
-}
-
-.h-\[550px\] {
-  height: 550px;
-}
-
-.h-\[250px\] {
-  height: 250px;
 }
 
 .w-full {
@@ -1663,10 +1643,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[200px\] {
   width: 200px;
-}
-
-.w-\[555px\] {
-  width: 555px;
 }
 
 .max-w-fit {
@@ -2013,11 +1989,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.divide-neutral-400 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgb(163 163 163 / var(--tw-divide-opacity));
-}
-
 .place-self-center {
   place-self: center;
 }
@@ -2028,10 +1999,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded-lg {
@@ -2117,7 +2084,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-earth-pin {
-  background-image: url('/images/Earth.svg');
+  background-image: url('images/Earth.svg');
 }
 
 .from-PrimaryDark {
@@ -2133,20 +2100,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: contain;
 }
 
-.bg-100\% {
-  background-size: 110%;
-}
-
 .bg-center {
   background-position: center;
 }
 
 .bg-top {
   background-position: top;
-}
-
-.bg-left {
-  background-position: left;
 }
 
 .bg-no-repeat {
@@ -2727,10 +2686,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 200px;
   }
 
-  .sm\:h-\[250px\] {
-    height: 250px;
-  }
-
   .sm\:max-w-fit {
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
@@ -3065,10 +3020,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 250px;
   }
 
-  .md\:h-\[274px\] {
-    height: 274px;
-  }
-
   .md\:h-\[550px\] {
     height: 550px;
   }
@@ -3087,10 +3038,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .md\:w-\[555\.91px\] {
-    width: 555.91px;
   }
 
   .md\:w-full {
@@ -3151,10 +3098,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:max-w-sm {
     max-width: 24rem;
-  }
-
-  .md\:max-w-\[276px\] {
-    max-width: 276px;
   }
 
   .md\:max-w-\[300px\] {
